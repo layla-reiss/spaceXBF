@@ -1,0 +1,92 @@
+.allButtons {
+  color: white;
+  border: solid;
+  border-color: white;
+  align-items: center;
+}
+
+* {
+  background-color: black;
+  color: white;
+}
+
+img {
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+      display: block;
+      margin:20px auto;   
+}
+
+.Oskillbutton {
+  color: white;
+  border: solid;
+  border-color: white;
+  align-items: center;
+
+  position: relative;
+  /* right: 205px; */
+  display: none;
+}
+.Toy {
+  color: white;
+  align-items: center;
+  position: relative;
+  display: none; 
+}
+.Snack {
+  color: white;
+  align-items: center;
+  position: relative;
+  display: none;  
+}
+.Askillbutton {
+  color: white;
+  border: solid;
+  border-color: white;
+  align-items: center;
+
+  position: relative;
+  /* right: 520px; */
+  display: none; 
+}
+
+.Hskillbutton { /* problem with these ones */
+  color: white;
+  border: solid;
+  border-color: white;
+  align-items: center;
+
+  position: relative;
+  /* right: 1; */
+  display: none;
+}
+
+.Kskillbutton { /*needs to be moved up by certain pixels */
+  color: white;
+  border: solid;
+  border-color: white;
+  align-items: center;
+
+  position: relative;
+  /* right: 234px; */
+  display: none;
+}
+
+#spacebf {
+  align-items: center;
+}
+
+#textBox {
+  align-items: center;
+  border-style: solid;
+  border-color: white;
+  float: inline-start;
+  text-align: center;
+}
+
+#aubrey {
+  float:left;
+  width:200px;
+  height:200px;
+}
