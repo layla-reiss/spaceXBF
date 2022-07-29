@@ -90,3 +90,10 @@ img {
   width:200px;
   height:200px;
 }
+
+.character { /* find out how to put text in line with image */
+  border-style: solid;
+  border-color: white;  
+  float: inline-start;
+  text-align: center;
+}
