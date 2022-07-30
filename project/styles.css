@@ -6,6 +6,8 @@
 }
 
 * {
+  /* background-image: -webkit-image-set(url('https://static.wikia.nocookie.net/omori/images/f/f8/Battleback_ow_xsbf.png/revision/latest?cb=20210113003733&format=original') 1x); */
+  /* background-size: cover; */
   background-color: black;
   color: white;
 }
@@ -18,16 +20,6 @@ img {
       margin:20px auto;   
 }
 
-.Oskillbutton {
-  color: white;
-  border: solid;
-  border-color: white;
-  align-items: center;
-
-  position: relative;
-  /* right: 205px; */
-  display: none;
-}
 .Toy {
   color: white;
   align-items: center;
@@ -40,36 +32,44 @@ img {
   position: relative;
   display: none;  
 }
-.Askillbutton {
+
+.Oskillbutton {
   color: white;
-  border: solid;
-  border-color: white;
+  /* border: solid;
+  border-color: white; */
   align-items: center;
 
   position: relative;
-  /* right: 520px; */
+  display: none;
+}
+
+.Askillbutton {
+  color: white;
+  /* border: solid;
+  border-color: white; */
+  align-items: center;
+
+  position: relative;
   display: none; 
 }
 
 .Hskillbutton { /* problem with these ones */
   color: white;
-  border: solid;
-  border-color: white;
+  /* border: solid;
+  border-color: white; */
   align-items: center;
 
   position: relative;
-  /* right: 1; */
   display: none;
 }
 
 .Kskillbutton { /*needs to be moved up by certain pixels */
   color: white;
-  border: solid;
-  border-color: white;
+  /* border: solid;
+  border-color: white; */
   align-items: center;
 
   position: relative;
-  /* right: 234px; */
   display: none;
 }
 
