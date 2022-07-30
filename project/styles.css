@@ -1,8 +1,10 @@
 .allButtons {
+  font-size: 20px;
   color: white;
   border: solid;
   border-color: white;
   align-items: center;
+  padding: 10px 40px;
 }
 
 * {
@@ -64,6 +66,8 @@ img {
 }
 
 .Kskillbutton { /*needs to be moved up by certain pixels */
+  display: flex;
+  flex-wrap: wrap;
   color: white;
   /* border: solid;
   border-color: white; */
