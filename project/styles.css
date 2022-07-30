@@ -85,15 +85,25 @@ img {
   text-align: center;
 }
 
-#aubrey {
-  float:left;
-  width:200px;
-  height:200px;
+.topCharacters {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
-.character { /* find out how to put text in line with image */
-  border-style: solid;
-  border-color: white;  
-  float: inline-start;
-  text-align: center;
+#spaceXBF {
+  display:flex;
+  justify-content: center;
+}
+.bottomCharacters {
+  display:flex;
+  justify-content: space-between; 
+  align-items: flex-end; 
+  flex-direction: row;
+}
+.character { 
+  border: 5px solid white; /* make border size increase if character is being hovered over */
+  width: 200px;
+  height:200px;
 }
