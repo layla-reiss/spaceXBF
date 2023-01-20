@@ -1,5 +1,2 @@
 # spaceXBF
-HI hi I made this but not really I kinda just copied Omori but it's not like I'm marketing this they can't copyright me I don't think
-fun fact my special sandwich at work has tomato pesto I had no idea I was tryna figure out what it was for weeks bc I'd never had tomato pesto but omg best thing ever
-if you're reading this I hope you're having a good day :)
-(I don't know what to put in a readme)
+This was a clone I attempted to make during summer 2022 of the indie game Omori - specifically the battle mechanics. In the original game it would allow the user to select an action between attack, skill, toy (item) or snack (heal) for each of four characters, before executing their decision at one or many enemies. In my version, I managed to replicate the ability to choose any of the options, however there isn't anything as of now to suggest it would lead to any wins or losses since I've mostly focused on the player's actions rather than the enemies retaliations. This is mostly a display of my HTML and CSS in terms of web development, and the JavaScript being more an experiment on my part since I'm self taught and wanted to see what I could do to make a single page more interactive. 
